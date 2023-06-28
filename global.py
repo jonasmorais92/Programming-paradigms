@@ -1,0 +1,17 @@
+def func1():
+    global x
+    x=10
+
+#TESTES COM VARIAVEL GLOBAL DECLARADA DENTRO DE UMA FUNÇÃO, ALTERANDO SEU VALOR NO PROGRAMA PRINCIPAL
+
+
+def func2():
+    global x
+    x=20
+
+x=5
+#func1()        #DESCOMENTAR E TESTAR, IRA ALTERAR O VALOR DE X
+#func2()        #DESCOMENTAR E TESTAR, IRA ALTERAR O VALOR DE X
+
+
+print(x)
